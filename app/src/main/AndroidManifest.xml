@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.droidlover.xdroid.demo">
+    package="cn.droidlover.xdroid.qubaobao">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".App"
+        android:name="cn.droidlover.xdroid.qubaobao.App"
         android:allowBackup="true"
         android:icon="@mipmap/xdroid_logo_128"
         android:label="@string/app_name"
@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".ui.MainActivity"
+            android:name="cn.droidlover.xdroid.qubaobao.ui.MainActivity"
             android:icon="@mipmap/xdroid_logo_128">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.AboutActivity" />
-        <activity android:name=".ui.WebActivity" />
+        <activity android:name="cn.droidlover.xdroid.qubaobao.ui.AboutActivity" />
+        <activity android:name="cn.droidlover.xdroid.qubaobao.ui.WebActivity" />
 
     </application>
 
